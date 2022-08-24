@@ -10,4 +10,4 @@ The application will have a
 - The card should have the photo, the memory and the like button
 
 ### Application Layout
-
+![Memories Layout](https://njmwasmoringa.github.io/memories/layout.jpg)
