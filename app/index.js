@@ -22,7 +22,7 @@ function onMemoriesFormSubmit(evt) {
     }
 
     fetch( "http://localhost:3000/memories", fetchParameters ).then( (response)=>{
-        console.log(response);
+        return response
     } );
 
     debugger
