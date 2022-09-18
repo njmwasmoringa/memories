@@ -1,0 +1,14 @@
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - name: React App
+    init: echo 'init script' # runs during prebuild
+    command: echo 'start script'
+
+  - name: json-server
+    init: npm install json-server
+    command: json-server --watch db.json
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
